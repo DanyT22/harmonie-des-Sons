@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<!-- Header et Nav -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#presentation">Présentation</a></li>
+                <li><a href="#artistes">Artistes</a></li>
+                <li><a href="#formulaire">Inscription</a></li>
+                <li><a href="#coordonnees">Coordonnées</a></li>
+            </ul>
+        </nav>
+        <img src="IMG/Logo.png" alt="Logo">
+    </header>
+    <main>
+<!-- Presentation de l'event -->
+        <section id="presentation">
+            <h1>Harmonie des Sons</h1>
+            <h2>Qui sommes nous</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A veniam, commodi fugiat sequi nulla consectetur architecto accusamus obcaecati debitis, praesentium dignissimos qui accusantium enim minus! Fuga, eligendi? Perferendis, optio ipsa</p>
+            <video autoplay loop> <source src="VID/Video illustration.mp4" type="video/mp4"> Votre navigateur ne supporte pas la balise vidéo</video>
+        </section>
+<!-- Artistes present sur scene -->
+        <section id="artistes">
+            <h2>Artiste présent sur scène</h2>
+            <ul>
+                <li> <span class="fond">Alex Grohl - Mellow Future Bass </span> <audio controls> 
+                    <source src="AUD/AlexGrohl - Mellow Future Bass.mp3" type="audio/mpeg">Votre navigateur ne supporte pas la balise audio </audio></li>
+                <li> <span class="fond">Its WatR - Soulsweeper </span><audio controls> 
+                    <source src="AUD/ItsWatR - Soulsweeper.mp3" type="audio/mpeg">Votre navigateur ne supporte pas la balise audio </audio></li>
+                <li> <span class="fond">Royalty Music - Deep Future Garage </span><audio controls> 
+                    <source src="AUD/RoyaltyMusic - Deep Future Garage.mp3" type="audio/mpeg">Votre navigateur ne supporte pas la balise audio </audio></li>
+                <li> <span class="fond">Soul Prod Music - Movement </span><audio controls>
+                    <source src="AUD/SoulProdMusic - Movement.mp3" type="audio/mpeg">Votre navigateur ne supporte pas la balise audio </audio></li>
+                <li> <span class="fond">The Moutain - For Future Bass </span><audio controls> 
+                    <source src="AUD/The Mountain - For Future Bass.mp3" type="audio/mpeg">Votre navigateur ne supporte pas la balise audio </audio></li>
+                <li> <span class="fond">Et encore plein d'autres </span></li>
+            </ul>
+        </section>
+<!-- Formulaire d'inscription -->
+        <section id="formulaire">
+            <h2>Rejoignez-nous</h2>
+            <form>
+                <label for="nom">NOM Prénom:</label>
+                <input type="text" name="nom" id="nom" placeholder="NOM Prénom">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <label for="tel">Téléphone:</label>
+                <input type="tel" name="tel" id="tel" placeholder="Téléphone">
+                <label for="jour">Quel jour souhaitez-vous être présent:</label>
+                <select name="jour" id="jour">
+                    <option value="Vendredi">Vendredi</option>
+                    <option value="Samedi">Samedi</option>
+                    <option value="Dimanche">Dimanche</option>
+                    <option value="Vendredi,Samedi">Vendredi et Samedi</option>
+                    <option value="Samedi,Dimanche">Samedi et Dimanche</option>
+                    <option value="Vendredi,Dimanche">Vendredi et Dimanche</option>
+                    <option value="Vendredi,Samedi,Dimanche">Vendredi, Samedi et Dimanche</option>
+                </select>
+                <label for="msg">Avez vous des choses a nous dire:</label>
+                <textarea name="msg" id="msg"></textarea>
+                <input type="submit">
+            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7977747.484547464!2d-77.33363428730088!3d-76.84861011045484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2sfr!4v1729864076701!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+<!-- Footer et Coordonnees -->
+    <footer id="coordonnees">
+        <p>Téléphone : <a href="">01.23.45.67.89</a></p>
+        <p>Email : <a href="mailto: ">Harmonie@des.sons</a></p>
+        <p>Copyright 2000 - <a href="">Harmonie des Sons</a></p>
+    </footer>
+</body>
+</html>            

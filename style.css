@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    list-style: none;
+    font-family: Permanent Marker;
+    color: #04c4df;
+}
+
+/* Header */
+header{
+    background-image:url(IMG/Fond\ Header.jpg);
+    background-repeat: cover;
+    background-size: 100%;
+    height: 800px;
+    position: relative;
+}
+nav{
+    background-color: #000000d3 ;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    top: 0%;
+}
+header li{
+    display: inline-block;
+    padding: 15px 35px;
+}
+header img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Présentation */
+#presentation{
+    background-image: url(IMG/Fond\ présentation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 200px;
+    position: relative;
+    height: 1000px ;
+}
+h1{
+    text-align: center;
+    margin: 30px;
+}
+#presentation h2{
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+video{
+    height: 500px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+
+/* Artistes */
+#artistes{
+    background-image: url(IMG/Fond\ artistes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    padding: 30px 200px;
+}
+#artistes h2{
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+#artistes ul{
+    text-align: center;
+}
+#artistes li{
+    margin: 50px;
+}
+audio{
+    display: inline;
+    text-align: center;
+    margin: 0 100px;
+}
+.fond{
+    background-color: #000000bb;
+}
+
+/* form */
+#formulaire{
+    background-image: url(IMG/Fond\ inscription.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+label{
+    display: block;
+}
+input[type=submit]{
+    display: block;
+}
+#formulaire *{
+    margin: 10px auto;
+}
+input, textarea, select{
+    padding: 20px 300px;
+    border-radius: 25px;
+    border-color: #04c4df;
+}
+form input:focus, textarea:focus, select:focus{
+    outline: none;
+    border-color: purple;
+    padding: 40px 400px;
+} 
+/* Footer */
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
