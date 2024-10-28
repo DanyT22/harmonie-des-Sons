@@ -45,6 +45,8 @@ header img{
 h1{
     text-align: center;
     margin: 30px;
+    font-size: 50px;
+    text-decoration: underline double;
 }
 #presentation h2{
     margin-left: 100px;
@@ -69,6 +71,7 @@ video{
 #artistes h2{
     margin-left: 100px;
     margin-bottom: 30px;
+    display: inline;
 }
 #artistes ul{
     text-align: center;
